@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>HERE - Design for Web - Styleguide</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<script src="js/jquery.min.js"></script>
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+<div class="container add-bottom add-top">
+
+		<h3 class="add-bottom"> Traffic cards</h3>
+
+	<div class="eight columns">
+
+			<div class="traffic-card">
+
+				<div class="jam-factor"><div class="num-circle light"><span class="num">1<br><p>Light</p></span></div></div>
+
+				<div class="traffic-hoz">
+
+				<h1>Main Headline Title</h1>
+				<h2>Subheadline Title</h2>
+				<span class="current-speed"><h3>Current average speed</h3><h4>XX km/h</h4></span>
+
+				</div>
+
+			</div>
+
+<div class="add-space"></div>
+
+			<div class="traffic-card">
+
+				<div class="jam-factor"><div class="num-circle mod"><span class="num">4<br><p>Moderate</p></span></div></div>
+
+				<div class="traffic-hoz">
+
+				<h1>Main Headline Title</h1>
+				<h2>Subheadline Title</h2>
+				<span class="current-speed"><h3>Current average speed</h3><h4>XX km/h</h4></span>
+
+				</div>
+
+			</div>
+			
+<div class="add-space"></div>
+
+			<div class="traffic-card">
+
+				<div class="jam-factor"><div class="num-circle heavy"><span class="num">9<br><p>Heavy</p></span></div></div>
+
+				<div class="traffic-hoz">
+
+				<h1>Main Headline Title</h1>
+				<h2>Subheadline Title</h2>
+				<span class="current-speed"><h3>Current average speed</h3><h4>XX km/h</h4></span>
+
+				</div>
+
+			</div>
+
+<div class="add-space"></div>	
+
+			<div class="traffic-card">
+
+					<div class="jam-factor"><div class="num-circle blocked"><span class="num">10<br><p>Blocked</p></span></div></div>
+
+					<div class="traffic-hoz">
+
+					<h1>Main Headline Title</h1>
+					<h2>Subheadline Title</h2>
+					<span class="current-speed"><h3>Current average speed</h3><h4>XX km/h</h4></span>
+
+					</div>
+
+			</div>
+
+		</div>
+
+	<div class="eight columns">
+
+			<div class="traffic-card">
+
+						<div class="jam-factor"><div class="num-circle blocked"><span class="num">10<br><p>Blocked</p></span></div></div>
+
+						<div class="traffic-hoz">
+
+							<h1>Main Headline Title</h1>
+							<h2>Subheadline Title</h2>
+							<span class="current-speed"><h3>Current average speed</h3><h4>XX km/h</h4></span>
+
+						</div>
+			</div>
+						<div class="traffic-info-card">
+
+						<div class="info-bg"><div class="info-ico"><img src="images/jf/car_crash_icon.png"></div></div>
+
+						<div class="traffic-hoz">
+
+							<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+							<span class="start-time"><h3>Start time</h3><h4>01.01.2014 01:00</h4></span>
+							<span class="end-time"><h3>Est. end time</h3><h4>02.02.2014 02:00</h4></span>
+
+						</div>
+			</div>
+
+
+		</div>
+
+</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+
+<script>
+	$('.traffic-card').mouseover(function(){
+
+	    $(this).find('.traffic-hoz').css('background','#0c1628');
+	})
+
+	.mouseout(function(){
+
+		$(this).find('.traffic-hoz').css('background','#273142');
+
+	});
+
+</script>
+</body>
+</html>

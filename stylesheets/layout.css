@@ -1,0 +1,632 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Type
+================================================== */
+
+h1 {
+
+	font: 22px 'nokia_pure';
+	color:#000;
+
+}
+
+h2 {
+
+	font: 18px 'nokia_pure';
+	color:#353535;
+
+}
+
+h3 {
+
+	font: 16px 'nokia_pure';
+	color:#484848;
+
+}
+
+h4 {
+
+}
+
+p {
+
+	font: 14px 'nokia_pure';
+	color:#666;
+
+}
+
+.small-print {
+
+	font: 12px 'nokia_pure';
+	color:#a6a6a6;
+
+}
+
+a{
+
+	font: 14px 'nokia_pure';
+	color:#00c9ff;
+	text-decoration: none
+
+}
+
+a:hover{
+
+	font: 14px 'nokia_pure';
+	color:#00b4e5;
+	text-decoration: none
+
+
+}
+
+.hover{
+
+	font: 14px 'nokia_pure';
+	color:#00b4e5;
+	text-decoration: none
+
+
+}
+
+.grey {
+
+	color:#666;
+}
+
+/* #Card Styles
+================================================== */
+
+/* traffic */
+
+.traffic-card {
+
+	width:424px;
+	min-height:89px;
+	font-family: 'nokia_pure';
+	box-shadow: 1px 1px 5px #cecece;
+
+}
+
+.jam-factor {
+
+	width:110px;
+	background: #fff;
+	height:71px;
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 9px 0px;
+
+}
+
+.num-circle {
+
+	width: 50px;
+	height: 50px; 
+	background: #fff;
+	font-size:28px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.num {
+
+	margin-top: 19px;
+	display: block;
+	letter-spacing: -0.1em;
+	margin-left: -3px;
+
+}
+
+.num p{
+
+	text-transform: uppercase;
+	color:#4d5766;
+	margin-top: 15px;
+	font-size: 11px!important;
+	letter-spacing: 0;
+}
+
+.light{
+
+	border:3px solid #57b96a;
+	color:#57b96a;
+}
+
+.mod{
+
+	border:3px solid #ffcd00;
+	color:#ffcd00;
+}
+
+.heavy{
+
+	border:3px solid #ff0000;
+	color:#ff0000;
+
+}
+
+.blocked{
+
+	border:3px solid #000;
+	color:#000;
+}
+
+
+.traffic-hoz {
+
+	padding:10px 15px 10px 15px;
+	width:284px;
+	float: right;
+	background: #273142;
+	display: inline;
+
+}
+
+.traffic-hoz h1{
+	font:18px 'nokia_pure';
+	color:#fff;
+	line-height:26px;
+	margin-bottom: -3px
+
+
+}
+
+.traffic-hoz h2 {
+
+	font:14px 'nokia_pure';
+	color:#dadada;
+	line-height: 22px;
+
+}
+
+.traffic-hoz h3{
+
+	font:12px 'nokia_pure';
+	color:#9b9b9b;
+	display: inline;
+}
+
+.traffic-hoz h4 {
+
+	font:12px 'nokia_pure';
+	color:#FFF;
+	display: inline;
+	margin-left:10px;
+}
+
+.traffic-hoz p{
+
+	font:12px 'nokia_pure';
+	color:#dadada;
+	line-height: 16px;
+	margin-bottom: 8px
+}
+
+.current-speed{
+
+	margin-top: -7px;
+	display: block;
+
+}
+
+.traffic-info-card {
+
+	width:424px;
+	height:110px;
+	font-family: 'nokia_pure';
+		box-shadow: 1px 1px 5px #999;
+
+}
+
+
+.start-time{
+
+	margin-top: -5px;
+	display: block;
+
+}
+
+.end-time{
+
+	margin-top: -3px;
+	display: block;
+
+}
+
+.info-bg {
+
+	width:110px;
+	background: #fff;
+	height:93px;
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 9px 0px;
+
+}
+
+.info-ico{
+	margin-top:25px;
+}
+
+/* cards */
+
+.card {
+
+	width:244px;
+	/*min-height:89px;*/
+	font-family: 'nokia_pure';
+	box-shadow: 1px 1px 5px #cecece;
+	cursor: pointer;
+
+}
+
+.card a:hover{
+
+	text-decoration: none;
+}
+
+.active-card{
+
+	border-top:2px solid #00c9ff;
+	margin-top:-2px;
+}
+
+.type {
+
+	position: absolute;
+	display: inline;
+	padding:10px 0px 0px 15px;
+}
+
+.lead-img{
+	margin-bottom: -8px;
+}
+
+.textual-components{
+
+		background: #273142;
+}
+
+.no-img-type {
+
+	display: block;
+	padding:10px 0px 0px 15px;
+
+}
+
+.name-info {
+
+	padding:10px 15px 0px 15px;
+	min-height:30px;
+
+}
+
+.name-info h1{
+	font:18px 'nokia_pure';
+	color:#fff;
+	line-height:26px;
+	margin-bottom: -3px
+
+
+}
+
+.name-info h2 {
+
+	font:14px 'nokia_pure';
+	color:#dadada;
+	line-height: 22px;
+
+}
+
+.name-info h3{
+
+	font:12px 'nokia_pure';
+	color:#9b9b9b;
+	display: inline;
+}
+
+.name-info h4 {
+
+	font:12px 'nokia_pure';
+	color:#FFF;
+	display: inline;
+	margin-left:10px;
+}
+
+.desc-info {
+
+	padding:6px 15px 10px 15px;
+	height:114px;
+
+}
+
+.card hr{
+
+	border-top:1px solid #1f2735;
+	border-bottom: 1px solid #3c4555;
+	margin-top:-3px;
+}
+
+ul.desc-list{
+
+	font:12px 'nokia_pure';
+	color:#dadada;
+}
+
+ul.desc-list li{
+
+	line-height:16px;
+	margin-bottom: 8px;
+	background-image: url('../images/cards/tick.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left:25px;
+}
+
+.desc-p{
+
+	font:12px 'nokia_pure';
+	color:#dadada;
+}
+
+/* PDC */
+
+.image-box{
+	width:513px;
+	height:168px;
+	background-image: url('../images/pdc/pdc-img.png');
+}
+
+.back {
+
+	background-image: url('../images/pdc/back-arrow.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	border:1px solid #b1b8b8;
+	background-color: transparent;
+	cursor: pointer;
+	display: inline-block;
+	margin:10px;
+	height:26px;
+	padding-left:17px;
+	padding-right:8px
+
+}
+
+.back p{
+
+	margin-top:2px;
+	font:11px 'nokia_pure';
+	color:#FFF;
+}
+
+.back:hover{
+
+	border:1px solid #FFF;
+
+}
+
+.rating-cat-name {
+
+	margin:56px 0px 0px 10px;
+}
+
+.cat-name{
+
+	margin-top:10px;
+}
+
+.rating-cat-name h1 {
+
+	font:28px 'nokia_pure';
+	color:#fff;
+	line-height:26px;
+	text-shadow: 1px 1px 2px #333;
+	display: inline;
+}
+
+.pdc-rating {
+
+	display: block
+}
+
+.pdc-cat {
+
+	display: inline;
+	padding-right:10px;
+}
+
+.img-attr {
+
+	float:right;
+	padding-right: 15px;
+	margin-top:-23px;
+}
+
+.img-attr h6 {
+
+	font:10px 'nokia_pure';
+	color:#fff;
+	text-shadow: 1px 1px 2px #333;
+	display: inline;
+	padding-right:5px;
+
+}
+
+.action-bar {
+
+	width:513px;
+	height:193px;
+	background: -moz-linear-gradient(top, rgba(27,36,52,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(27,36,52,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(27,36,52,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(27,36,52,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(27,36,52,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(27,36,52,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+
+}
+
+
+.action-links{
+
+margin: 15px;
+margin: auto;
+
+}
+
+.action-links  a{
+
+	font:12px 'nokia_pure';
+	color:#fff;
+	text-decoration: none;
+	padding-left:12px;
+	display: inline;
+float: left;
+	
+}
+
+ul.action-links li{
+
+
+min-width: 17%;
+padding: 2px 0 40px 20px;
+
+	
+}
+
+.save {
+
+	background-image: url('../images/pdc/save.png');
+	background-repeat: no-repeat;
+	border:none;
+	background-position: left center;
+
+
+}
+
+
+
+.share {
+
+	background-image: url('../images/pdc/share.png');
+	background-repeat: no-repeat;
+	border:none;
+	background-position: left center;
+
+}
+
+.send {
+
+	background-image: url('../images/pdc/send-car.png');
+	background-repeat: no-repeat;
+	border:none;
+	background-position: left center;
+
+}
+
+
+.directions {
+
+	background-image: url('../images/pdc/directions.png');
+	background-repeat: no-repeat;
+	border:none;
+	background-position: left center;
+
+
+}
+
+
+.save, .share, .send, .directions {
+
+
+	cursor: pointer;
+	display: inline-block;
+	margin:10px 4px 0 10px;
+
+}
+
+
+.action-bar hr{
+border: none;
+border-right: 1px solid #313947;
+height: 44px;
+/* margin-top: 0; */
+margin-left: 30px;
+display: inline-block;
+}
+
+
+	
+
+/* #Page Styles
+================================================== */
+
+
+.add-top{
+
+	margin-top: 40px
+}
+
+.add-space{
+	height: 20px;
+}
+
+.half-space{
+	min-height: 10px;
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+@font-face {
+    font-family: 'nokia_pure';
+    src: url('../fonts/nokiapuretext-regular-webfont.eot');
+    src: url('../fonts/nokiapuretext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nokiapuretext-regular-webfont.woff') format('woff'),
+         url('../fonts/nokiapuretext-regular-webfont.ttf') format('truetype'),
+         url('../fonts/nokiapuretext-regular-webfont.svg#nokia_pure_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
